@@ -1,13 +1,18 @@
 import React from 'react'
 import './globals.css'
+import Header from './components/Header'
+import Providers from './Providers'
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
-   <html>
-    <body>
-        {children}
-    </body>
-   </html>
+    <html>
+      <body>
+        <Providers>
+          <Header />
+          {children}
+        </Providers>
+      </body>
+    </html>
   )
 }
 
