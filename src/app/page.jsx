@@ -1,11 +1,16 @@
 import React from 'react'
 
+
 const Page = () => {
   return (
     <div>
-      baslanic app ve page sil kendin bastan yap
+       <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
     </div>
   )
 }
+
+
 
 export default Page

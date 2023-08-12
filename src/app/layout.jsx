@@ -1,4 +1,5 @@
 import React from 'react'
+import './globals.css'
 
 const Layout = ({children}) => {
   return (
@@ -10,4 +11,8 @@ const Layout = ({children}) => {
   )
 }
 
+
+export const metadata = {
+  title: 'MoviApp',
+}
 export default Layout
