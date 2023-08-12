@@ -2,7 +2,9 @@ import React from 'react'
 
 const Page = () => {
   return (
-    <div>page</div>
+    <div>
+      baslanic app ve page sil kendin bastan yap
+    </div>
   )
 }
 
