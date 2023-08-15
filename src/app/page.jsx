@@ -1,11 +1,15 @@
 import React from 'react'
 
 
-const Page = () => {
+const Page = async ({searchParams}) => {
+  console.log(searchParams.genre,'searchparamas')
+
+ 
+
   return (
     <div>
        <h1 className="text-3xl font-bold underline">
-      Hello world!
+     veri cekem
     </h1>
     </div>
   )
