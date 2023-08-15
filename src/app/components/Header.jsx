@@ -1,7 +1,7 @@
 import React from 'react'
 import {BsSearch} from 'react-icons/bs'
 import MenuItem from './MenuItem'
-import Thema from './ThemeComp'
+
 import ThemeCop from './ThemeComp'
 
 const Header = () => {

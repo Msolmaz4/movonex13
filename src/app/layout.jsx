@@ -1,14 +1,14 @@
 import React from 'react'
 import './globals.css'
 import Header from './components/Header'
-import Providers from './Providers'
+import Providers from './providers'
 
 const Layout = ({ children }) => {
   return (
     <html>
       <body>
         <Providers>
-          <Header />
+          <Header/>
           {children}
         </Providers>
       </body>
