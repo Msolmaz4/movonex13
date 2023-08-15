@@ -6,7 +6,7 @@ import { ThemeProvider } from 'next-themes'
 //tailwindconfigde darkmosde eekledim
 const Providers = ({children}) => {
   return (
-    <ThemeProvider>
+    <ThemeProvider enableSystem={true}  attribute="class">
      {children}
   </ThemeProvider>
   )

@@ -1,8 +1,8 @@
 
 'use client'
-import {MdDarkMode} from 'react-icons/md'
+
 import {useTheme } from 'next-themes'
-import {BsLightbulb} from 'react-icons/bs'
+
 
 const ThemeComp = () => {
   const { theme, setTheme } = useTheme()
