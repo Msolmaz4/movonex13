@@ -1,7 +1,7 @@
 
 'use client'
 import {MdDarkMode} from 'react-icons/md'
-import { useTheme } from 'next-themes'
+import {useTheme } from 'next-themes'
 import {BsLightbulb} from 'react-icons/bs'
 
 const ThemeComp = () => {
@@ -9,11 +9,8 @@ const ThemeComp = () => {
 
   return (
     <div>
-        {/*<MdDarkMode className='cursor-pointer' size={30}/>**/}
-        <button onClick={()=>setTheme(theme === 'dark' ? 'light' :'dark')}>
-          {theme === 'dark' ? (<MdDarkMode/>) :(<BsLightbulb/>)}
-        </button>
-      
+      <button onClick={() => setTheme('light')}>Light Mode</button>
+      <button onClick={() => setTheme('dark')}>Dark Mode</button>
     </div>
   )
 }
