@@ -10,7 +10,7 @@ const ThemeComp = () => {
   return (
     <div>
       <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
-        {theme === 'dark' ? 'lgiht' :'dark'}
+        {theme === 'dark' ? 'light' :'dark'}
       </button>
    
     </div>

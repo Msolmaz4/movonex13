@@ -12,6 +12,8 @@ const Layout = ({ children }) => {
           <Header/>
           <Tabs/>
           {children}
+
+        
         </Providers>
       </body>
     </html>

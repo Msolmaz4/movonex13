@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import React from 'react'
 import {useSearchParams} from 'next/navigation'
+import Image from 'next/image'
 
 const Tabs = () => {
  
@@ -36,6 +37,8 @@ const Tabs = () => {
               href={`/?genre=${er.url}`}> {er.name }</Link>
             ))
         }
+
+
     </div>
   )
 }
